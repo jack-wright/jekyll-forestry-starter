@@ -1,11 +1,5 @@
 {% include header.html %}
-<div class="c-container">
-    <div class="c-content">
-        <h1 class="c-content__heading">{{ page.title }}<h1>
-        <p class="c-content__text">{{ page.author }} - <span>{{ page.date }}</span></p>
-        <img src="{{ page.thumbnail }}" alt="{{ page.alt-tag }}">
-        <p class="c-content__text">{{ page.blog-content }}</p>
-        <a class="c-content__button" href="/">back</a>
-    </div>
-</div>
+    {% include blog-head.html %}
+        {{ content }}
+    {% include blog-footer.html %}
 {% include footer.html %}
