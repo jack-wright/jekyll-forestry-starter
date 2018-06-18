@@ -6,13 +6,14 @@
   "author": "Jack Wright <jtwright89@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "watch": "NODE_ENV=development yarn install && webpack && jekyll contentful && jekyll serve",
-    "dev": "NODE_ENV=development yarn install && webpack && jekyll contentful && jekyll build",
-    "production": "NODE_ENV=production jekyll contentful && jekyll build"
+    "watch": "NODE_ENV=development yarn install && webpack && jekyll serve",
+    "dev": "NODE_ENV=development yarn install && webpack && jekyll build",
+    "production": "NODE_ENV=production yarn install && webpack && jekyll build"
   },
   "dependencies": {
     "css-loader": "^0.28.11",
     "extract-text-webpack-plugin": "^3.0.2",
+    "netlify-cms": "^1.9.2",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0"
