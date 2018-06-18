@@ -1,0 +1,4 @@
+destination: public
+source: src
+title: Jekyll + Netlify CMS starter repo
+description: A basic starter repo for a Jekyll build that uses Netlify as a CMS.
